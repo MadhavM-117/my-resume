@@ -6,7 +6,8 @@ Madhav Manoj, <br />
 Bangalore - 560103, <br />
 Karnataka, India <br />
 +91-9980850568 <br />
-madhavmanoj117@gmail.com
+madhavmanoj117@gmail.com <br />
+https://trialsofraaz.dev
 
 ### Summary
 Full-stack developer with 6 years of experience in building web platforms, processing
@@ -21,26 +22,44 @@ building well-designed products and understanding business motivations.
 ##### 2017-2023
 
 **Founding Engineer**
-- Backend development
-    - Helped create Restful APIs for the backend
-        - Python (Django & Flask)
-        - Java
-        - Rust
-    - Email service
-    - Async Processing Orchestration
-    - ML Workloads Ops
-- Front-end Development
-    - Helped create the web front-end
-        - Angular 2
-        - React
-            - Class-based Components
-            - Functional Components (with hooks)
-    - Created & implemented designs for features
-        - Wireframes in Mockflow
-        - Prototypes in Figma
-- Miscellaneous
-    - Responsible for Product Management & Documentation
-    - Implemented various scripts to meet adhoc customer & internal requirements
+- Owned multiple features end-to-end, from wireframes to APIs & UI, and finally user documentation, with a focus on usability
+- Picked up domain-specific skills & knowledge to better understand user requirements and build a better product
+    - Geospatial Data Processing via GDAL, QGIS, SAGA, etc.
+    - Coordinate Systems, Transformations and EPSG codes
+- Provided customer & production support to ensure SLAs were met and custom requirements were handled
+    - handled adhoc requests from clients, documented the required process, and later integrated features  into the product
+    - methodically investigated production bugs and ways to improve performance
+- Worked as a Product Manager & UX Designer to establish processes, understand user requirements and build a product roadmap
+    - created a product roadmap, and a process (Kanban) to prioritise action items based on business needs, for a entirely remote team
+    - created wireframes (Mockflow) and prototypes (Figma) to help understand user requirements, and iterate on the required functionality
+- Provisioned and setup VMs for the service team with the appropriate software and access, using GCP Compute and AWS EC2.
+- Used Docker to containerize various services, and Docker Compose to orchestrate them locally.
+    - used docker image to create cross-platform utilities for the service team
+- Wrote python scripts to address adhoc requirements and orchestrate processing
+    - drone flight plan generation so that the data collected ensures accurate outputs
+    - async processing automation (Dataset Creation to Secondary Output Generation) using open-source and third party tools.
+    - Geospatial Dataset Manipulation (Raster & Vector Dataset), ensuring appropriate coordinate systems for accurate geo-referencing using GDAL & SAGA.
+    - Data upload to a 3rd party platform for tiling and visualization
+- Wrote & maintained the APIs for the web platform Vimana
+    - migrated the initial Python Django APIs from Python2 to Python3
+    - supplemented the Django APIs with Python Flask API microservices, to add additional functionality
+    - added APIs to support mobile apps for on-site data collection & output visualization
+    - re-architected & moved the APIs to a Java Spring Boot application to improve performance
+    - moved all the APIs to a Rust monorepo, to improve performance and maintainability
+- Owned, re-designed & re-architected our user-facing web platform Vimana
+    - owned the entire front-end codebase and most user-facing functionality, first in Angular and later in React
+    - helped with the database design & implemented it translated requirements to a Database Design, and helped implement it.
+    - started a staged migration of the codebase from class components to functional components in React 17
+    - used redux for global state management, react-joyride for user tutorials, and react-router for routing
+- Updated the UI codebases to use modern versions of the required packages, to improve developer experience
+    - Updated core packages like React & Webpack, while ensuring functionality was maintained
+    - integrated WASM modules written in Rust, to move some complex processing to the client side, improving perceived performance and usability
+- Helped with the database design for a NoSQL database using Google Cloud Datastore
+    - Migrated the database from Google Cloud Datastore to PostgreSQL for better maintainability
+- Helped change the codebase so that it can be deployed on-premise for clients as required
+    - removed dependencies on Cloud Platform specific services
+    - replaced Google Maps with Openlayers & OpenStreetMaps
+    - replaced Mapbox with our own internal tile server & Openlayers for visualization
 
 #### Protium
 ##### 2021-2022
@@ -50,11 +69,7 @@ building well-designed products and understanding business motivations.
     - Integrated custom functionality on top of an open-source Process Orchestration Platform
     - Handled basic custom authentication using an open-source Identity & Access Management Platform
 - Front-end Development
-    - Developed prototypes and custom forms
-        - Formio
-        - React
-        - React-Native (Android)
-    - Used TDD principles achieving 95%+ coverage
+    - Developed a prototype web application, a mobile application and custom forms using Formio, React and React-Native
 
 #### Dune
 ##### 2017
@@ -69,6 +84,9 @@ building well-designed products and understanding business motivations.
 - Front-end
     - Javascript / Typescript
     - React, Redux
+    - NodeJS, Webpack, Esbuild
+    - Jest, Testing Library
+    - React Joyride
 - Back-end / Scripting
     - Python
     - Java
@@ -89,35 +107,7 @@ building well-designed products and understanding business motivations.
 ### AspecScire
 ##### Founding Engineer
 
-- one of the initial engineers at AspecScire, a drone-analytics company.
-- started with writing adhoc python scripts that handled:
-    - drone flight plan generation so that the data collected ensures accurate outputs
-    - async processing automation (Dataset Creation to Secondary Output Generation)
-    - Geospatial Dataset Manipulation (Raster & Vector Dataset), ensuring appropriate coordinate systems for accurate geo-referencing
-    - Data upload to a 3rd party platform for tiling and visualization
-    - code deployment to production servers, with supporting nginx configs
-- maintained python-django API backend
-    - migrated from Python2 to Python3
-- implemented micro-services in python-flask
-    - interactions with large Geospatial Datasets in an efficient manner
-    - supporting a mobile app meant for on-site use, to make data collection easier and more efficient
-- involved in the re-design and architecting of the web platform, Vimana
-    - translated requirements to a Database Design, and helped implement it.
-    - assisted in API implementation in Java, and UI implemented in React + Redux
-    - All microservices and APIs were later moved to a single rust monorepo
-- Updated the UI codebases to use modern versions of the required packages, to improve developer experience
-    - Updated core packages like React & Webpack, while ensuring functionality was maintained
-    - integrated WASM modules written in Rust, to move some complex processing to the client side, improving perceived performance and usability
-- owned features end-to-end, from wireframes to APIs & UI, and finally user documentation, with a focus on usability
-    - image upload
-    - custom client-side map interactions using OpenLayers
-    - measurements on geospatial datasets
-- involved in providing customer & prouduction support
-    - handled adhoc requests from clients, which were later integrated into the product
-    - documented processes to follow to address client needs, and created playbooks
-    - methodically investigated production bugs and ways to improve performance
-- Being a small team, took on multiple roles as and when needed
-    - worked on UX Design & Product Management to ensure features built met requirements and usability standards
-    - set up a process to prioritise action items with the required stakeholders
-- Provisioned and setup VMs for the service team with the appropriate software and access to ensure they have a seamless experience using the tools they require. 
+
+
+
 
