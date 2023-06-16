@@ -1,6 +1,6 @@
 body{
     height: 29.7cm;
-    font-size: 11px;
+    font-size: 10px;
 }
 
 @page {
@@ -11,6 +11,13 @@ body{
 .job-header {
     display: flex;
     justify-content: space-between;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.job-title {
+    padding-top: 0;
+    margin: 5px 0;
 }
 
 .smaller-font {
@@ -21,10 +28,21 @@ body{
     display: flex;
     justify-content: space-between;
     column-gap: 15px;
+    border-top: 1px solid black;
+}
+
+.details-container h2 {
+    margin: 10px 0;
 }
 
 .details {
     flex: 1;
+}
+
+.section-header {
+    margin: 0;
+    padding: 10px 0;
+    border-bottom: 1px solid lightgrey;
 }
 
 .summary {
@@ -33,4 +51,9 @@ body{
 
 ul {
     padding-left: 15px;
+}
+
+.skills-container {
+    display: flex;
+    justify-content: space-between;
 }
