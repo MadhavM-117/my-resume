@@ -11,10 +11,8 @@ https://trialsofraaz.dev
 
 ### Summary
 Full-stack developer with 6 years of experience in building web platforms, processing
-pipelines and mobile applications. Successfully worn multiple hats, as a UX Designer &
-Product Manager to build intuitive and engaging experiences. Skilled in development using
-React, Typescript, Rust, Python and experienced with both GCP and AWS. Interested in
-building well-designed products and understanding business motivations.
+pipelines and mobile applications with React, Rust, Python & Java. Contributed as a Product Manager
+, UX Designer, and Systems Engineer to meet changing business needs.
 
 ### Experience
 

@@ -1,6 +1,7 @@
 body{
     height: 29.7cm;
-    font-size: 10px;
+    margin: 0.5cm;
+    font-size: 12px;
 }
 
 @page {
@@ -24,15 +25,15 @@ body{
     font-size: smaller;
 }
 
-.details-container {
+.header-container {
     display: flex;
     justify-content: space-between;
     column-gap: 15px;
-    border-top: 1px solid black;
+    border-bottom: 1px solid black;
 }
 
-.details-container h2 {
-    margin: 10px 0;
+.header-container h2 {
+    margin: 0;
 }
 
 .details {
@@ -46,7 +47,7 @@ body{
 }
 
 .summary {
-    flex: 3;
+    padding-top: 10px;
 }
 
 ul {
