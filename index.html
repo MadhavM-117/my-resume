@@ -43,21 +43,28 @@
             <li>Worked on enhancing a client's teledermatology platform, and automating manual workflows.
                 <ul>
                     <li>Implemented screens from designs using NextJs and React.</li>
-                    <li>Added customer and internal notifications using email using Django and Django Rest Framework</li>
-                    <li>Implemented supporting features across the front-end and the back-end to simplify the user experience</li>
+                    <li>Added customer and internal notifications using email using Django and Django Rest Framework
+                    </li>
+                    <li>Implemented supporting features across the front-end and the back-end to simplify the user
+                        experience
+                    </li>
                 </ul>
             </li>
             <li>Working on an e-commerce site to sell organic farm produce
                 <ul>
                     <li>Initially created a shopify plugin to enable a custom delivery process.</li>
-                    <li>Designed a website to replace shopify in Figma, and implemented the website using NextJs, React and PostgreSQL</li>
+                    <li>Designed a website to replace shopify in Figma, and implemented the website using NextJs, React
+                        and PostgreSQL
+                    </li>
                 </ul>
             </li>
             <li>
                 Created a platform for people to create their own wedding websites.
                 <ul>
                     <li>Conducted market research, and spoke to users to validate the idea</li>
-                    <li>Created a prototype of a wedding website creation platform using React and Rust, used in multiple weddings</li>
+                    <li>Created a prototype of a wedding website creation platform using React and Rust, used in
+                        multiple weddings
+                    </li>
                 </ul>
             </li>
         </ul>
@@ -69,70 +76,122 @@
         </h3>
         <p>
             AspecScire was an early-stage drone data analytics startup, initially focused on surveying, mapping, and
-            construction, and later expanding to sectors like solar, infrastructure inspections, mining, agriculture,
+            construction, and later expanded to solar, infrastructure inspections, mining, agriculture,
             and forestry. In this dynamic environment, I played a key role in designing and building a wide range of
             features for their SaaS platform, Vimana, creating a versatile self-serve platform for customers, and
             additionally developed tailored solutions to meet the unique needs of various clients.
         </p>
-        <div class="pad-left">
-            <h4 class="job-title">Full-stack Developer</h4>
-            <div class="pad-left">
-                <ul>
-                    <li>Built features from the ground-up, from customer interactions to wireframes (Mockflow) & designs
-                        (Figma), to implementation and documentation.
-                    </li>
-                    <li>Ran multiple refactors of the codebase to reduce technical debt, and improve developer
-                        experience.
-                    </li>
-                    <li>Added feature flags for seamless transitions from third-party technology providers, to internal
-                        solutions.
-                    </li>
-                    <li>Handled customer & product support, addressed adhoc client requirements.</li>
-                </ul>
-            </div>
-        </div>
         <h4 class="job-title">Full-stack Developer</h4>
         <ul>
+            <li>
+                Wrote Python scripts to automate the processing of large datasets of drone imagery using photogrammetry
+                software, to create 3D models &amp; point clouds, orthomosaics and digital elevation models.
+                These outputs were then used to create interactive maps &amp; 3D visualisations, and perform volumetric
+                analysis &amp; other
+                measurements.
+                <ul>
+                    <li>Wrote scripts to automate the processing of drone imagery using Agisoft PhotoScan. Designed,
+                        tested, and implemented different methods to improve performance by 8x, while preserving
+                        accuracy and
+                        quality.
+                    </li>
+                    <li>Wrote scripts using Mapbox APIs to upload orthomosaics and other outputs for visualization.
+                        Optimized uploads to make datasets available for visualization 40% faster.
+                    </li>
+                    <li>Wrote scripts using python-gdal, shapely and other GIS tools to create custom rasters and
+                        vectors when required for a customer's use case.
+                    </li>
+                </ul>
+            </li>
             <li>
                 Owned the front-end codebase and user-facing functionality, first in Angular and later in React, for the
                 drone analytics platform, Vimana.
                 <ul>
-                    <li>Implemented custom map interactions and visualization for Geospatial Data. Integrated WASM
-                        modules to improve performance.
+                    <li>
+                        I worked on the first version of our web platform, Vimana. I worked on adding a file uploader,
+                        using AngularJS, and integrating it with our backend APIs.
+                        I also added a map to visualize the location of where the uploaded files were captured, using
+                        MapboxGL JS.
                     </li>
                     <li>Used antd for UI components, redux for global state management, react-joyride for user
-                        tutorials, and react-router for routing.
-                    </li>
-                    <li>Created a framework for migrating React class components to functional components.</li>
-                    <li>Updated webpack & migrated our custom webpack config to add Hot Module Replacement, improving
-                        build and refresh times.
+                        tutorials, and react-router for routing. Updated webpack & migrated our custom webpack config to
+                        add Hot Module Replacement, improving build and refresh times.
                     </li>
                 </ul>
             </li>
             <li>
-                Wrote &amp; maintained the APIs for the web platform Vimana
+                Once we saw the demand for a more powerful platform, we re-designed and re-architected the
+                platform, and I was primarily responsible for the front-end.
                 <ul>
-                    <li>Owned features from gathering business requirements, to database & API design, to
-                        implementation, documentation and testing.
+                    <li>
+                        We used React, Redux, and Ant Design to create a powerful platform, with a focus on user
+                        experience, where users could upload and process drone data, visualize the outputs on a map, and
+                        create annotations.
                     </li>
-                    <li>Built multiple python-flask microservices to support a mobile app, and platform features.</li>
-                    <li>Re-architected & migrated APIs from python-django to Java Spring.</li>
-                    <li>Migrated & consolidated the APIs from Java to Rust, to improve performance and
-                        maintainability.
+                    <li>
+                        Implemented custom map interactions and visualization for Geospatial Data. Initially, we used
+                        MapboxGL to visualize the data, and used Sketchfab &amp; Potree to support 3D visualization.
+                    </li>
+                    <li>
+                        Eventually, we migrated away from Mapbox and implemented our own tiling service. I used
+                        OpenLayers to create our own interactive map visualization, with support for tiling and
+                        backwards compatibility with Mapbox datasets.
+                    </li>
+                    <li>
+                        With the support of our new tiling service and the performance improvements from WASM modules we
+                        created, I moved the measurements logic to work on the front-end, to reduce costs and improve
+                        performance.
+                    </li>
+                    <li>
+                        Created a workflow end-to-end to enable users to upload CAD design files, manually georeference
+                        them during upload using OpenLayers, and visualize them on the map.
+                    </li>
+                </ul>
+            </li>
+            <li>
+                Wrote &amp; maintained the APIs for our web platform Vimana. I owned features from gathering business
+                requirements, to database & API design, to implementation, documentation and testing.
+                <ul>
+                    <li>Built multiple <u>python-flask</u> microservices to support a mobile app, and platform features.
+                        Implemented an upload micro-service for drone data, a measurement service to enable distance,
+                        elevation, area and volume measurements on our interactive maps, and more.
+                    </li>
+                    <li>
+                        Created a <u>python-flask</u> microservice to handle object detection and other tasks, able to
+                        handle
+                        inputs from multiple sources, such as automated detections from our in-house ML models, and
+                        manual annotations from our platform.
+                    </li>
+                    <li>
+                        Created an issues feature, where users could create issues on the maps or other visualizations,
+                        have conversations about it, classify them, and share it with other users. Added pagination
+                        support for issues, and their associated comments.
+                    </li>
+                    <li>Re-architected & migrated APIs from <u>python-django</u> to <u>Java Spring</u>, and finally to
+                        <u>Rust</u>, to
+                        improve performance and maintainability.
+                    </li>
+                    <li>Implemented email notifications via <u>mailchimp</u>, to keep our customers up-to-date with the
+                        state of their data, processing status, and about any issues with their data.
                     </li>
                     <li>Used Swagger & OpenAPI to create internal API documentation.</li>
                 </ul>
             </li>
-        </ul>
-        <h4 class="job-title">Systems Engineer</h4>
-        <ul>
-            <li>Provisioned and setup VMs for the service team with the appropriate software and access, using GCP
-                Compute and AWS EC2.
+            <li>
+                Managed infrastructure &amp; deployments of the platform on GCP and AWS, using Kubernetes, Docker, and
+                Jenkins.
+                Migrated the platform from GCP to be platform-agnostic to allow for on-premise deployments.
+                <ul>
+
+                    <li>Used Docker to containerize various services, and Docker Compose to orchestrate them locally,
+                        and Kubernetes for services in production.
+                    </li>
+                    <li>Migrated the database from Google Cloud Datastore to PostgreSQL, and generalized access to file
+                        storage via S3-like APIs.
+                    </li>
+                </ul>
+
             </li>
-            <li>Used Docker to containerize various services, and Docker Compose to orchestrate them locally.</li>
-            <li>Used Kubernetes to orchestrate services in production.</li>
-            <li>Wrote python scripts to address adhoc internal & external requirements and orchestrate processing.</li>
-            <li>Migrated the database from Google Cloud Datastore to PostgreSQL for better maintainability</li>
         </ul>
 
     </div>
@@ -150,7 +209,7 @@
             add
             support for multiple regional languages in their user-facing lending platform.
         </p>
-        <h4 class="job-title">Full-stack Developer</h4>
+        <h4 class="job-title">Full-stack Developer (Part-time)</h4>
         <ul>
             <li>Backend development
                 <ul>
@@ -177,19 +236,19 @@
         </h3>
         <p>
             Dune was a social video platform where users can create, share, discover and redistribute videos shot on
-            mobile. At the core of it is a powerful, yet simple video editing app that takes a shaky user shot video on
-            a phone and make it look as good as professionally edited content. I worked on the back-end of the app,
-            creating various video filters and presets.
+            mobile. At the core of it is a video editing app that takes a user shot video on
+            and makes it look as good as professionally edited content. I worked on the back-end of the app,
+            creating various video filters and presets, using C++, OpenGL, and Python.
         </p>
         <h4 class="job-title">Back-end Developer</h4>
         <ul>
             <li>
-
-                Implemented custom video filters using OpenGL in C++
+                Implemented custom video filters using OpenGL in C++, such as slow-motion, fast-forward, and tilt-shift.
+                Besides these, I worked on video stabilization, custom color grading presets and more.
             </li>
             <li>
+                Exposed a python wrapper for these features, using Boost. This was used in the server to process videos uploaded by users.
 
-                Exposed python APIs for these features, using Boost
             </li>
         </ul>
     </div>
